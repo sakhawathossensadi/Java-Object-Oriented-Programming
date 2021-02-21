@@ -20,7 +20,7 @@ public class MethodOverriding {
         C c = new C();
         c.m1();
         P p1 = new C();
-        p1.m1();/*In overriding method resolution always takes care by compiler based on reference
+        p1.m1();/*In overriding method resolution always takes care by JVM based on reference
         type. In overloading Run Time object will not play any role.
         Also known as RunTime Polymorphism,Dynamic Polymorphism or Late Binding*/
     }
